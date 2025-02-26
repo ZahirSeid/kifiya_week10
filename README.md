@@ -37,3 +37,45 @@ This task focuses on detecting change points in Brent oil prices using statistic
     Visualization & Interpretation:
         Graphs were generated to visualize detected change points.
         Key events and anomalies were analyzed based on price movements. 
+
+# Tasks 2 & 3 – Advanced Modeling and Interactive Dashboard
+
+## Task 2: Advanced Analysis & Integration of Economic Indicators
+
+### Objective:
+Enhance the baseline oil price analysis by incorporating key macroeconomic indicators to improve understanding and forecasting of Brent oil prices.
+
+### What We Did:
+
+- **Data Integration:**
+    - Converted wide-format GDP growth and inflation datasets (1980–2024) into long format.
+    - Merged these economic indicators with the Brent oil price data on a common year field.
+
+- **Advanced Modeling:**
+    - Developed multivariate models (e.g., VAR, regime-switching models) to capture relationships between oil prices and macroeconomic trends.
+    - Explored machine learning techniques (e.g., LSTM networks) to model complex non-linear dynamics.
+
+- **Model Evaluation:**
+    - Evaluated model performance using extended metrics: **RMSE**, **MAE**, **MAPE**, and **Recency RMSE**.
+    - Final evaluation metrics (for **Price**, **Returns**, **Log_Returns**, **Volatility**, and **Momentum**) guided improvements in feature engineering and parameter tuning.
+
+
+## Task 3: Interactive Dashboard Development
+
+### Objective:
+Create an intuitive and responsive dashboard that allows stakeholders to explore the analysis and model results interactively.
+
+### What We Did:
+
+- **Backend (Flask):**
+    - Developed APIs to serve preprocessed data, model forecasts, and evaluation metrics.
+    - Enabled integration of real-time or updated data sources.
+
+- **Frontend (React):**
+    - Built interactive visualizations (time series, event overlays, filterable date ranges) for oil prices and economic indicators.
+    - Implemented features to allow users to compare model forecasts and review key performance metrics.
+
+- **User Experience:**
+    - Ensured the dashboard is responsive across devices and provides clear, actionable insights.
+    - The dashboard empowers users to drill down into specific events or trends affecting Brent oil prices.
+
